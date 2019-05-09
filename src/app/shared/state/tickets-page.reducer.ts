@@ -1,4 +1,4 @@
-import { TicketsPageActions, TicketsApiActions } from 'src/app/tickets/actions';
+import { TicketsPageActions, TicketsApiActions } from '../../tickets/actions';
 
 export interface State {
   isLoading: boolean;

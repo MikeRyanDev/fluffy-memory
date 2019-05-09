@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter, TrackByFunction } from '@angular/core';
-import { TicketViewModel } from 'src/app/shared/models';
+import { TicketViewModel } from '../../../shared/models';
 
 @Component({
   selector: 'app-ticket-list',

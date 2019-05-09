@@ -1,5 +1,5 @@
 import { ActionReducerMap, createSelector } from '@ngrx/store';
-import { CustomRouterState } from 'src/app/custom-route-serializer';
+import { CustomRouterState } from '../../custom-route-serializer';
 import * as fromTicketDetailsPage from './ticket-details-page.reducer';
 import * as fromTicketsPage from './tickets-page.reducer';
 import * as fromTickets from './tickets.reducer';

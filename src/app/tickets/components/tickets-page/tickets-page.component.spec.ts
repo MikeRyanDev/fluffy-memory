@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { Store } from '@ngrx/store';
 import { provideMockStore } from '@ngrx/store/testing';
 import { of } from 'rxjs';
-import { TicketViewModel } from 'src/app/shared/models';
+import { TicketViewModel } from '../../../shared/models';
 import { TicketsPageActions } from '../../actions';
 import { TicketsPageComponent } from './tickets-page.component';
 

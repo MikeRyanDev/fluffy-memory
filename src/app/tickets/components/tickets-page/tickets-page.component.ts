@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import * as fromRoot from 'src/app/shared/state';
-import { TicketViewModel } from 'src/app/shared/models';
+import * as fromRoot from '../../../shared/state';
+import { TicketViewModel } from '../../../shared/models';
 import { TicketsPageActions } from '../../actions';
 
 @Component({

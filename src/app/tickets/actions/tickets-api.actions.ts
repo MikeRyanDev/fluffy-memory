@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { UserModel, TicketModel } from 'src/app/shared/models';
+import { UserModel, TicketModel } from '../../shared/models';
 
 export enum Types {
   LoadUsersAndTicketsSuccess = '[Tickets API] Load Users and Tickets Success',

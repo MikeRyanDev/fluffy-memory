@@ -1,5 +1,5 @@
 import { createEntityAdapter, EntityState } from '@ngrx/entity';
-import { TicketsApiActions } from 'src/app/tickets/actions';
+import { TicketsApiActions } from '../../tickets/actions';
 import { UserModel } from '../models';
 
 export interface State extends EntityState<UserModel> {}

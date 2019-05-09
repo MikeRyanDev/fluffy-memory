@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter, TrackByFunction } from '@angular/core';
-import { UserModel } from 'src/app/shared/models';
+import { UserModel } from '../../../shared/models';
 
 @Component({
   selector: 'app-user-filter',

@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter, Pipe, PipeTransform } from '@angular/core';
-import { TicketViewModel } from 'src/app/shared/models';
+import { TicketViewModel } from '../../../shared/models';
 
 @Pipe({ name: 'appFirstChar' })
 export class FirstCharPipe implements PipeTransform {

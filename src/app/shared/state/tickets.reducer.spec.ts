@@ -1,4 +1,4 @@
-import { TicketsPageActions, TicketsApiActions } from 'src/app/tickets/actions';
+import { TicketsPageActions, TicketsApiActions } from '../../tickets/actions';
 import { reducer, initialState, selectAll } from './tickets.reducer';
 import { TicketModel } from '../models';
 

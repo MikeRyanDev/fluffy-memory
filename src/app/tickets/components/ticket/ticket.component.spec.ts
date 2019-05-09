@@ -2,7 +2,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { RouterTestingModule } from '@angular/router/testing';
-import { TicketViewModel } from 'src/app/shared/models';
+import { TicketViewModel } from '../../../shared/models';
 import { TicketComponent, FirstCharPipe } from './ticket.component';
 
 describe('Ticket Component', () => {
