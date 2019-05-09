@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ticket Component should render correctly 1`] = `
+<app-ticket
+  ticket={[Function Object]}
+  toggleComplete={[Function EventEmitter]}
+>
+  <mat-card>
+    <div
+      class="avatar"
+    >
+      M
+    </div>
+    <a
+      href="/ticket/3"
+      ng-reflect-router-link="/ticket,3"
+    >
+      Another Test Ticket
+    </a>
+    <mat-checkbox />
+  </mat-card>
+</app-ticket>
+`;

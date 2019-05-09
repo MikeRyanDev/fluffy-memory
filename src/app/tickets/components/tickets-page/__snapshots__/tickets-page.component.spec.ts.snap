@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tickets Page Component should render correctly 1`] = `
+<app-tickets-page
+  isLoading$={[Function Observable]}
+  store={[Function MockStore]}
+  tickets$={[Function Observable]}
+>
+  <app-tickets-page-filters /><app-ticket-list />
+</app-tickets-page>
+`;
+
+exports[`Tickets Page Component should show a progress bar if the page is loading 1`] = `
+<app-tickets-page
+  isLoading$={[Function Observable]}
+  store={[Function MockStore]}
+  tickets$={[Function Observable]}
+>
+  <app-tickets-page-filters /><mat-progress-bar
+    color="accent"
+    mode="indeterminate"
+  /><app-ticket-list />
+</app-tickets-page>
+`;
